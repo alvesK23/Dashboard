@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <!-- Da acesso a lib através do cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <h1><span class="highlight">Projeto</span> IoT Revolucionário</h1>
+        </div>
+    </div>
+
+    <div class="dash">
+        <!-- Farol de temperatura -->
+        <div class="graph">
+            <div class="box red">
+                <h1>204%</h1>
+                <h3>STATUS</h3>
+                <p>crescimento dos dias atuais comparado ao ano de 2011.</p>
+            </div>
+            <div class="box yellow">
+                <h1>$2.582</h1>
+                <h3>STATUS</h3>
+                <p> <span class="sudeste">Sudeste</span> obteve o pico de sálarios por região.</p>
+            </div>
+            <div class="box green">
+                <h1>13.6%</h1>
+                <h3>STATUS</h3>
+                <p><span class="sudeste">Nordeste</span> obteve o pico de desempregados por região.</p>
+            </div>
+        </div>
+
+        <!-- Gráficos -->
+        <div class="graph">
+            <canvas id="myChart" style="width: 100%; height: 100%"></canvas>
+        </div>
+
+        <div class="graph">
+            <canvas id="myChart2" style="width: 100%; height: 100%"></canvas>
+        </div>
+
+        <div class="graph">
+            <canvas id="myChart3" style="width: 100%; height: 100%"></canvas>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./js/grafico1.js"></script>
+<script src="./js/grafico2.js"></script>
+<script src="./js/grafico3.js"></script>

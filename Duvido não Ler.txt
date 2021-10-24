@@ -1,0 +1,7 @@
+sabia que não iria resistir kk..
+espero que não se importe de eu ter utilizado o seu mesmo exemplo dado apra fazer os outros gráficos.
+estou gostando bastante de mexer com esses gráficos!!
+acabei percebendo também que quando precisa-se inserir mais de um valor em uma label ou função 
+tem que adicionar as chaves [] e dentro dela o conteúdo separado por "" tipo que : 
+["batatinha frita 123","batatinha frita 123",Para Sua Empresa] e após uma virgula ,
+não vejo a hora de pdoer ligar isso no banco de dados logo e sair fazendo gráficos por ai kk..
